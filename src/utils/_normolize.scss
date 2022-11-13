@@ -1,0 +1,12 @@
+@import '../fonts/font-family.scss';
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Gilroy;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 120%;
+}

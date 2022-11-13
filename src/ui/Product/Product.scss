@@ -1,0 +1,74 @@
+.product {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  width: 300px;
+  border: 2px solid rgb(223, 28, 57);
+  border-radius: 40px;
+  padding-bottom: 40px;
+
+  &__picture {
+    width: 240px;
+    height: 240px;
+    border-radius: 20%; // ?
+    margin-top: 10px;
+    background-size: cover;
+    background-position: center;
+  }
+
+  &__info {
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 200;
+    color: rgb(223, 28, 57);
+
+    &__weight {
+      font-size: 18px;
+    }
+  }
+
+  &__total {
+    padding: 8px;
+    font-size: 24px;
+    color: #587120;
+  }
+
+  &__amount {
+    padding: 8px 32px;
+    color: rgb(223, 28, 57);
+    background-color: #fff;
+    border: 1px solid rgb(223, 28, 57);
+    border-radius: 8px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 300ms;
+
+    &:hover {
+      cursor: pointer;
+      background-color: rgba(223, 28, 57, 1);
+      color: #fff
+    }
+
+    &__buttons {
+      display: flex;
+      // grid-template-columns: repeat(2, 1fr);
+      gap: 8px;
+    }
+  }
+
+  &__counter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 140px;
+    font-size: 32px;
+    font-weight: 100;
+
+    &__count {
+      width: 40px;
+      margin-top: 8px;
+    }
+  }
+}
+

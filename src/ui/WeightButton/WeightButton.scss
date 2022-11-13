@@ -1,0 +1,15 @@
+.product__weight__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 54px;
+  height: 33px;
+  border: none;
+  border-radius: 20px;
+  color: #fff;
+  background-color: rgb(223, 28, 57);
+  
+  &:hover {
+    cursor: pointer;
+  }
+}
